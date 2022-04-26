@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(65, 63, 63);
+}
+input[type="NUMBER"], 
+select, 
+textarea { 
+  width: 100%; 
+  padding: 10px; 
+  border: 2px solid rgb(69, 101, 16); 
+  border-radius: 4px; 
+  resize: vertical; 
+  background-color: rgb(125, 245, 151); 
+} 
+
+input[type="text"], 
+select, 
+textarea { 
+  width: 100%; 
+  padding: 10px; 
+  border: 2px solid  rgb(69, 101, 16); 
+  border-radius: 4px; 
+  resize: vertical; 
+  background-color: rgb(125, 245, 151); 
+} 
+input[type="email"], 
+select, 
+textarea { 
+  width: 100%; 
+  padding: 10px; 
+  border: 2px solid rgb(69, 101, 16); 
+  border-radius: 4px; 
+  resize: vertical; 
+  background-color: rgb(125, 245, 151);  
+} 
+*{
+  box-sizing: border-box;
+}
+
+label { 
+  padding: 12px 12px 12px 0; 
+  /* display: inline-block;  */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(178, 199, 188); 
+} 
+ 
+input[type="submit"], 
+input[type="reset"] { 
+  background-color: #7a6df1; 
+  color: white; 
+  padding: 12px 20px; 
+  border: 1px solid black; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  float: right; 
+} 
+.titulo{ 
+  text-align: center; 
+  color: #40b744; 
+} 
+input[type="submit"]:hover, 
+input[type="reset"]:hover { 
+  background-color: #4532ee; 
+} 
+ 
+.col-25 { 
+  float: left; 
+  width: 25%; 
+  margin-top: 6px; 
+} 
+ 
+.col-75 { 
+  float: left; 
+  width: 75%; 
+  margin-top: 6px; 
+} 
+ 
+ 
+/* .row:after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+} */ 
+ 
+ 
+@media screen and (max-width: 600px) { 
+  .col-25, 
+  .col-75, 
+  input[type="submit"], 
+  input[type="reset"] { 
+    width: 100%; 
+    margin-top: 0; 
+  } 
+}
